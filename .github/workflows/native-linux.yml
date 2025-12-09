@@ -4,6 +4,7 @@
 name: Build Linux Binaries
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
